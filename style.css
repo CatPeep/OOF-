@@ -1,0 +1,65 @@
+body {
+    background-color: limegreen;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(141, 8, 141);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Pangolin', cursive;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+.imagebanner{
+    background-image: url(Images/Jailbreak\,Arsenal\,Fortnite.png);
+    padding: 200px;
+    background-size: 100% 120%; 
+    color: rgb(168, 24, 168);
+    font-size: x-large;
+    background-color: grey;
+}
+
+.imagebanner2 {
+    background-image: url(Images/MyGamesImage.png);
+    padding: 200px;
+    background-size: 100% 120%; 
+    color: rgb(145, 165, 229);
+    font-size: x-large;
+    background-color: grey;
+}
+ 
+@media screen and (min-width: 700px) {
+    ul {
+    text-align: right;
+    }
+
+    li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid purple;
+    }
+
+    .game {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    }
+}
