@@ -57,9 +57,16 @@ li {
     border-left: 1px solid purple;
     }
 
-    .game {
+    .game1 {
     width: 33%;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
+    }
+
+    .game2 {
+    width: 33%;
+    vertical-align: top;
+    text-align: center;    
     }
 }
